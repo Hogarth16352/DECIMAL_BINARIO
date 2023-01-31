@@ -19,7 +19,7 @@ const convertirDecimalABinario = () => {
     divisor = 2;
     let numeroSalida = "";
     while( numeroDecimal >= 2 ){
-        cociente = Math.trunc(numeroDecimal / divisor);
+        cociente = Math.trunc(numeroDecimal/divisor);
         residuo = numeroDecimal % divisor;
         numeroSalida += residuo.toString();
         numeroDecimal = cociente;
